@@ -1,0 +1,30 @@
+body
+{background-color:beige;
+    color:blue;
+    padding: 10px;
+    text-align:justify;
+}
+
+
+Header 
+{
+    background-color: brown;
+    color:black;
+    padding: 10px;
+    text-align: center;
+}
+
+footer
+{
+    background-color: antiquewhite;
+    color:azure;
+    padding: 5px;
+    text-align: center;
+}
+
+nav
+{background-color: aliceblue;
+color:aqua;
+padding: 10px;
+text-align: center;}
+
