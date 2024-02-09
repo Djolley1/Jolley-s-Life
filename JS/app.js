@@ -17,3 +17,26 @@ function hiMyNameIs() {
   }
 
 hiMyNameIs()
+
+
+
+
+
+function favoriteMeal() {
+
+  let numberOfGuesses = 0;
+
+  while ( numberOfGuesses < 3 ) {
+    let answer = prompt("What is your favorite meal?");
+    if( answer != "pizza" ) {
+      alert("Terrible taste!");
+      numberOfGuesses++;
+    }
+    else {
+      alert("Great choice!");
+      break;
+    }
+  }
+  document.write("Pizza is awexome!")
+}
+favoriteMeal()
